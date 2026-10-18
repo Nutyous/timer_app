@@ -1,4 +1,5 @@
 import SwiftUI
+import AppKit
 
 struct ContentView: View {
     @EnvironmentObject var appState: AppState
@@ -6,6 +7,7 @@ struct ContentView: View {
     @ObservedObject var stopwatch: StopwatchModel
     @ObservedObject var pomodoro: PomodoroModel
     @State private var showSettings: Bool = false
+    @State private var dragWindowOrigin: CGPoint?
 
     var body: some View {
         ZStack {
@@ -18,6 +20,25 @@ struct ContentView: View {
                 normalContent
             }
         }
+        .simultaneousGesture(
+            DragGesture(minimumDistance: 4)
+                .onChanged { value in
+                    guard let window = NSApp.keyWindow else { return }
+                    if dragWindowOrigin == nil {
+                        dragWindowOrigin = CGPoint(x: window.frame.minX, y: window.frame.minY)
+                    }
+                    guard let dragWindowOrigin else { return }
+                    window.setFrameOrigin(
+                        NSPoint(
+                            x: dragWindowOrigin.x + value.translation.width,
+                            y: dragWindowOrigin.y - value.translation.height
+                        )
+                    )
+                }
+                .onEnded { _ in
+                    dragWindowOrigin = nil
+                }
+        )
         .frame(
             width: appState.isCompact ? 160 : 320,
             height: appState.isCompact ? 160 : 420
