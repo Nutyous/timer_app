@@ -3,12 +3,13 @@ import AppKit
 import Combine
 
 @main
-struct TickTockApp: App {
-    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-
-    var body: some Scene {
-        Settings {
-            EmptyView()
+struct TickTockApp {
+    static func main() {
+        let application = NSApplication.shared
+        let appDelegate = AppDelegate()
+        application.delegate = appDelegate
+        withExtendedLifetime(appDelegate) {
+            application.run()
         }
     }
 }

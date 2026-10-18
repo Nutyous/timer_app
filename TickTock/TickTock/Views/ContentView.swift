@@ -8,6 +8,8 @@ struct ContentView: View {
     @ObservedObject var pomodoro: PomodoroModel
     @State private var showSettings: Bool = false
     @State private var dragWindowOrigin: CGPoint?
+    @State private var dragStartMouseLocation: CGPoint?
+    @State private var hostingWindow: NSWindow?
 
     var body: some View {
         ZStack {
@@ -22,21 +24,27 @@ struct ContentView: View {
         }
         .simultaneousGesture(
             DragGesture(minimumDistance: 4)
-                .onChanged { value in
-                    guard let window = NSApp.keyWindow else { return }
+                .onChanged { _ in
+                    guard let window = hostingWindow else { return }
+                    let mouseLocation = NSEvent.mouseLocation
                     if dragWindowOrigin == nil {
-                        dragWindowOrigin = CGPoint(x: window.frame.minX, y: window.frame.minY)
+                        dragWindowOrigin = window.frame.origin
+                        dragStartMouseLocation = mouseLocation
                     }
-                    guard let dragWindowOrigin else { return }
+                    guard
+                        let dragWindowOrigin,
+                        let dragStartMouseLocation
+                    else { return }
                     window.setFrameOrigin(
                         NSPoint(
-                            x: dragWindowOrigin.x + value.translation.width,
-                            y: dragWindowOrigin.y - value.translation.height
+                            x: dragWindowOrigin.x + mouseLocation.x - dragStartMouseLocation.x,
+                            y: dragWindowOrigin.y + mouseLocation.y - dragStartMouseLocation.y
                         )
                     )
                 }
                 .onEnded { _ in
                     dragWindowOrigin = nil
+                    dragStartMouseLocation = nil
                 }
         )
         .frame(
@@ -47,6 +55,14 @@ struct ContentView: View {
         .overlay(
             RoundedRectangle(cornerRadius: appState.isCompact ? 16 : 12)
                 .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+        )
+        .background(
+            WindowAccessor { window in
+                if hostingWindow !== window {
+                    hostingWindow = window
+                }
+            }
+            .frame(width: 0, height: 0)
         )
         .contextMenu {
             contextMenuItems
@@ -222,6 +238,28 @@ struct ContentView: View {
 
         Button("Quit TickTock") {
             NSApp.terminate(nil)
+        }
+    }
+}
+
+private struct WindowAccessor: NSViewRepresentable {
+    let onResolve: (NSWindow) -> Void
+
+    func makeNSView(context: Context) -> NSView {
+        let view = NSView(frame: .zero)
+        DispatchQueue.main.async {
+            if let window = view.window {
+                onResolve(window)
+            }
+        }
+        return view
+    }
+
+    func updateNSView(_ view: NSView, context: Context) {
+        DispatchQueue.main.async {
+            if let window = view.window {
+                onResolve(window)
+            }
         }
     }
 }
