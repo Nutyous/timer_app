@@ -1,6 +1,8 @@
-# Timer
+# Ticktock (Timer App)
 
 A lightweight, always-on-screen timer for macOS. It works like a sticky note: a small window that shows a clock, timer, stopwatch or pomodoro at a glance.
+
+It's called TickTock!
 
 > **A note on how it was built:** this app is fully vibe-coded. I built it with AI because I didn't have the patience to write it by hand. It's basic and rough around the edges, but it does the job for me, and I hope it does for you too.
 
