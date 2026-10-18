@@ -61,13 +61,6 @@ struct CompactPomodoroView: View {
                     .buttonStyle(.plain)
                 }
 
-                BubblePopup(
-                    text: pomodoro.currentStage.rawValue,
-                    color: pomodoro.stageColor,
-                    isVisible: pomodoro.showStageBubble
-                )
-                .frame(height: 16)
-
                 Spacer()
             }
         }

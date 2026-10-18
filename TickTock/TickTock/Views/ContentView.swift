@@ -12,14 +12,31 @@ struct ContentView: View {
     @State private var hostingWindow: NSWindow?
 
     var body: some View {
-        ZStack {
-            // Background
-            backgroundView
-
+        ZStack(alignment: .top) {
             if appState.isCompact {
-                compactContent
+                ZStack {
+                    backgroundView
+                    compactContent
+                }
+                .frame(width: 160, height: 160)
+
+                if appState.currentMode == .pomodoro {
+                    BubblePopup(
+                        text: pomodoro.currentStage.rawValue,
+                        color: pomodoro.stageColor,
+                        isVisible: pomodoro.showStageBubble
+                    )
+                    .frame(width: 160, height: 32)
+                    .offset(y: 164)
+                    .animation(.spring(response: 0.5, dampingFraction: 0.7), value: pomodoro.showStageBubble)
+                }
             } else {
-                normalContent
+                ZStack {
+                    backgroundView
+                    normalContent
+                }
+                .frame(width: 320, height: 420)
+                .clipShape(RoundedRectangle(cornerRadius: 12))
             }
         }
         .simultaneousGesture(
@@ -49,12 +66,7 @@ struct ContentView: View {
         )
         .frame(
             width: appState.isCompact ? 160 : 320,
-            height: appState.isCompact ? 160 : 420
-        )
-        .clipShape(RoundedRectangle(cornerRadius: appState.isCompact ? 16 : 12))
-        .overlay(
-            RoundedRectangle(cornerRadius: appState.isCompact ? 16 : 12)
-                .stroke(Color.white.opacity(0.1), lineWidth: 0.5)
+            height: appState.isCompact ? (pomodoro.showStageBubble && appState.currentMode == .pomodoro ? 204 : 160) : 420
         )
         .background(
             WindowAccessor { window in

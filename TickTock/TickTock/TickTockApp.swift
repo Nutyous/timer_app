@@ -183,10 +183,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     // MARK: - Observe AppState Changes
 
     private func observeAppState() {
-        appState.$isCompact
-            .removeDuplicates()
-            .sink { [weak self] isCompact in
-                self?.animateWindowSize(compact: isCompact)
+        Publishers.CombineLatest3(appState.$isCompact, appState.$currentMode, pomodoroModel.$showStageBubble)
+            .sink { [weak self] isCompact, currentMode, showStageBubble in
+                let showCompactBubble = isCompact && currentMode == .pomodoro && showStageBubble
+                self?.animateWindowSize(compact: isCompact, bubbleVisible: showCompactBubble)
             }
             .store(in: &cancellables)
 
@@ -205,20 +205,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             .store(in: &cancellables)
     }
 
-    private func animateWindowSize(compact: Bool) {
+    private func animateWindowSize(compact: Bool, bubbleVisible: Bool) {
         guard let window = window else { return }
 
         let newWidth: CGFloat = compact ? 160 : 320
-        let newHeight: CGFloat = compact ? 160 : 420
+        let newHeight: CGFloat = compact ? (bubbleVisible ? 204 : 160) : 420
 
         let currentFrame = window.frame
+        guard currentFrame.width != newWidth || currentFrame.height != newHeight else { return }
 
-        // Anchor at center of current window
         let centerX = currentFrame.midX
         let centerY = currentFrame.midY
 
-        let newOriginX = centerX - newWidth / 2
-        let newOriginY = centerY - newHeight / 2
+        let compactBubbleResize = compact && currentFrame.width == newWidth
+        let newOriginX = compactBubbleResize ? currentFrame.minX : centerX - newWidth / 2
+        let newOriginY = compactBubbleResize ? currentFrame.maxY - newHeight : centerY - newHeight / 2
 
         let newFrame = NSRect(
             x: newOriginX,
