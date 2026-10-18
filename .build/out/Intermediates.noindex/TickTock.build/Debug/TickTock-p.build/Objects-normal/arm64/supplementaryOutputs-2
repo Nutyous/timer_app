@@ -1,0 +1,23 @@
+{
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Components/CircularProgress.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Models/AppState.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Models/PomodoroModel.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.swiftdeps"
+  }
+}

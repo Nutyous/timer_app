@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'TickTock-product' in project 'TickTock'
+➜ Explicit dependency on target 'TickTock_TickTock' in project 'TickTock'
+Target 'TickTock-product' in project 'TickTock'
+➜ Explicit dependency on target 'TickTock_TickTock' in project 'TickTock'
+Target 'TickTock_TickTock' in project 'TickTock' (no dependencies)

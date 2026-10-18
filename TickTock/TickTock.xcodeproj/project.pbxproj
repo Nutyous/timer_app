@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C84B924C1ECD482C892BA5C4 /* TickTockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60481B220B5D4C668465FD4D /* TickTockApp.swift */; };
+		63A8B82B4FFF442399A0B09A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AC8A90FF2444D98EC73EF3 /* AppState.swift */; };
+		3F6F8E2042964B2B89596918 /* PomodoroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50724C3CD6514CE0B51321A1 /* PomodoroModel.swift */; };
+		86713610E4A94BB883183264 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5EC5FB8CB44E67B3BDF183 /* TimerModel.swift */; };
+		869096F64D6A47F798C11444 /* StopwatchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E537EB30394AA885F8358E /* StopwatchModel.swift */; };
+		F71DFC538A30488ABA9B4B9B /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6889E447D74898A5AE5A6B /* SoundManager.swift */; };
+		D90F0D3BA94E47259408A3C5 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C26B37CFC24ED9B2B1F769 /* TimeFormatting.swift */; };
+		F0DF8329F24E42A9B30EFDE6 /* LoginItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA3ACCC22F24079B580406A /* LoginItemManager.swift */; };
+		3E2BB57183F44C42A42B11F8 /* BubblePopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7CC7B4195945C4BCBF94D5 /* BubblePopup.swift */; };
+		872E07BBB43F4D50A318D292 /* AnalogClockFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D631390BF944A5AFAF38BA /* AnalogClockFace.swift */; };
+		86A2331EBFA644509EAD7B66 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAD6AB8784441D8F00352D /* CircularProgress.swift */; };
+		A2179F56AE1644F3B1FD7666 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BA4E1470C44EB49589F5B8 /* SettingsView.swift */; };
+		6B713C5EA2E64AAFB90A55AC /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20994234E2F043999BC3B328 /* ClockView.swift */; };
+		78274A31CE484236B72F2612 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A657442D262B461887ECA6E8 /* TimerView.swift */; };
+		BDC4A9AFED6F48EB94766045 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F921274C0484C8AF9D23B /* PomodoroView.swift */; };
+		4B96897169644883B64ECED5 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F4A7C1D1E54EBA89C49C40 /* StopwatchView.swift */; };
+		17A033ED02EA479C837A62DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FF3BF5D114B3F9785E4DD /* ContentView.swift */; };
+		1950FDA8C8CC48E2A1B6EAF5 /* CompactClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D717A6F0947829A57A387 /* CompactClockView.swift */; };
+		B328C2DB6FFD418AA98A1F84 /* CompactStopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE76220A99243C2BC90A7BD /* CompactStopwatchView.swift */; };
+		1341E8D9B8CA412E8AF3FBC9 /* CompactContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47BF737B5F44DC7839252D1 /* CompactContainerView.swift */; };
+		EB4FBC300C754D90B87E2809 /* CompactTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6E6E5E7E6B4909A09AF300 /* CompactTimerView.swift */; };
+		32A30D2F87904CFA9EFC8A75 /* CompactPomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03371567BB0E4A9EB8533BC3 /* CompactPomodoroView.swift */; };
+		CCD235CBF2124687922AF83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871E758FB2714E6EA5C93F4B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D953856CC1974D47BF2AA2AA /* TickTock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickTock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		871E758FB2714E6EA5C93F4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BF051CFE594622B1F2E737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EE0150EDAFE480398B37CF9 /* TickTock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TickTock.entitlements; sourceTree = "<group>"; };
+		60481B220B5D4C668465FD4D /* TickTockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TickTockApp.swift"; sourceTree = "<group>"; };
+		07AC8A90FF2444D98EC73EF3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState.swift"; sourceTree = "<group>"; };
+		50724C3CD6514CE0B51321A1 /* PomodoroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PomodoroModel.swift"; sourceTree = "<group>"; };
+		CD5EC5FB8CB44E67B3BDF183 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerModel.swift"; sourceTree = "<group>"; };
+		E7E537EB30394AA885F8358E /* StopwatchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopwatchModel.swift"; sourceTree = "<group>"; };
+		0A6889E447D74898A5AE5A6B /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SoundManager.swift"; sourceTree = "<group>"; };
+		55C26B37CFC24ED9B2B1F769 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeFormatting.swift"; sourceTree = "<group>"; };
+		8EA3ACCC22F24079B580406A /* LoginItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginItemManager.swift"; sourceTree = "<group>"; };
+		CE7CC7B4195945C4BCBF94D5 /* BubblePopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BubblePopup.swift"; sourceTree = "<group>"; };
+		69D631390BF944A5AFAF38BA /* AnalogClockFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalogClockFace.swift"; sourceTree = "<group>"; };
+		1CEAD6AB8784441D8F00352D /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CircularProgress.swift"; sourceTree = "<group>"; };
+		F0BA4E1470C44EB49589F5B8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		20994234E2F043999BC3B328 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClockView.swift"; sourceTree = "<group>"; };
+		A657442D262B461887ECA6E8 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerView.swift"; sourceTree = "<group>"; };
+		1F4F921274C0484C8AF9D23B /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PomodoroView.swift"; sourceTree = "<group>"; };
+		45F4A7C1D1E54EBA89C49C40 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StopwatchView.swift"; sourceTree = "<group>"; };
+		B87FF3BF5D114B3F9785E4DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView.swift"; sourceTree = "<group>"; };
+		185D717A6F0947829A57A387 /* CompactClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompactClockView.swift"; sourceTree = "<group>"; };
+		BFE76220A99243C2BC90A7BD /* CompactStopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompactStopwatchView.swift"; sourceTree = "<group>"; };
+		D47BF737B5F44DC7839252D1 /* CompactContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompactContainerView.swift"; sourceTree = "<group>"; };
+		CE6E6E5E7E6B4909A09AF300 /* CompactTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompactTimerView.swift"; sourceTree = "<group>"; };
+		03371567BB0E4A9EB8533BC3 /* CompactPomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CompactPomodoroView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7DD28289F04AE89C80C427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE59C7A40904933BB4B0B7A = {
+			isa = PBXGroup;
+			children = (
+				0B2357337CC44719943C72E8 /* Products */,
+				E8204337CFB840E083146C6A /* TickTock */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2357337CC44719943C72E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D953856CC1974D47BF2AA2AA /* TickTock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8204337CFB840E083146C6A /* TickTock */ = {
+			isa = PBXGroup;
+			children = (
+				871E758FB2714E6EA5C93F4B /* Assets.xcassets */,
+				A5BF051CFE594622B1F2E737 /* Info.plist */,
+				5EE0150EDAFE480398B37CF9 /* TickTock.entitlements */,
+				60481B220B5D4C668465FD4D /* TickTockApp.swift */,
+				07AC8A90FF2444D98EC73EF3 /* AppState.swift */,
+				50724C3CD6514CE0B51321A1 /* PomodoroModel.swift */,
+				CD5EC5FB8CB44E67B3BDF183 /* TimerModel.swift */,
+				E7E537EB30394AA885F8358E /* StopwatchModel.swift */,
+				0A6889E447D74898A5AE5A6B /* SoundManager.swift */,
+				55C26B37CFC24ED9B2B1F769 /* TimeFormatting.swift */,
+				8EA3ACCC22F24079B580406A /* LoginItemManager.swift */,
+				CE7CC7B4195945C4BCBF94D5 /* BubblePopup.swift */,
+				69D631390BF944A5AFAF38BA /* AnalogClockFace.swift */,
+				1CEAD6AB8784441D8F00352D /* CircularProgress.swift */,
+				F0BA4E1470C44EB49589F5B8 /* SettingsView.swift */,
+				20994234E2F043999BC3B328 /* ClockView.swift */,
+				A657442D262B461887ECA6E8 /* TimerView.swift */,
+				1F4F921274C0484C8AF9D23B /* PomodoroView.swift */,
+				45F4A7C1D1E54EBA89C49C40 /* StopwatchView.swift */,
+				B87FF3BF5D114B3F9785E4DD /* ContentView.swift */,
+				185D717A6F0947829A57A387 /* CompactClockView.swift */,
+				BFE76220A99243C2BC90A7BD /* CompactStopwatchView.swift */,
+				D47BF737B5F44DC7839252D1 /* CompactContainerView.swift */,
+				CE6E6E5E7E6B4909A09AF300 /* CompactTimerView.swift */,
+				03371567BB0E4A9EB8533BC3 /* CompactPomodoroView.swift */,
+			);
+			path = TickTock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B57DE78D28B4793929E9BAB /* TickTock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DBBCBEAF8442C1AD64AEFD /* Build configuration list for PBXNativeTarget "TickTock" */;
+			buildPhases = (
+				373E00ECC6FF42A589BADF75 /* Sources */,
+				3B7DD28289F04AE89C80C427 /* Frameworks */,
+				DF7A00938BFE4647B315E6C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickTock;
+			productName = TickTock;
+			productReference = D953856CC1974D47BF2AA2AA /* TickTock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F39412A768410DB02BA400 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7B57DE78D28B4793929E9BAB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 59B14876107640979801F10A /* Build configuration list for PBXProject "TickTock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DE59C7A40904933BB4B0B7A;
+			productRefGroup = 0B2357337CC44719943C72E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B57DE78D28B4793929E9BAB /* TickTock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF7A00938BFE4647B315E6C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD235CBF2124687922AF83D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373E00ECC6FF42A589BADF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C84B924C1ECD482C892BA5C4 /* TickTockApp.swift in Sources */,
+				63A8B82B4FFF442399A0B09A /* AppState.swift in Sources */,
+				3F6F8E2042964B2B89596918 /* PomodoroModel.swift in Sources */,
+				86713610E4A94BB883183264 /* TimerModel.swift in Sources */,
+				869096F64D6A47F798C11444 /* StopwatchModel.swift in Sources */,
+				F71DFC538A30488ABA9B4B9B /* SoundManager.swift in Sources */,
+				D90F0D3BA94E47259408A3C5 /* TimeFormatting.swift in Sources */,
+				F0DF8329F24E42A9B30EFDE6 /* LoginItemManager.swift in Sources */,
+				3E2BB57183F44C42A42B11F8 /* BubblePopup.swift in Sources */,
+				872E07BBB43F4D50A318D292 /* AnalogClockFace.swift in Sources */,
+				86A2331EBFA644509EAD7B66 /* CircularProgress.swift in Sources */,
+				A2179F56AE1644F3B1FD7666 /* SettingsView.swift in Sources */,
+				6B713C5EA2E64AAFB90A55AC /* ClockView.swift in Sources */,
+				78274A31CE484236B72F2612 /* TimerView.swift in Sources */,
+				BDC4A9AFED6F48EB94766045 /* PomodoroView.swift in Sources */,
+				4B96897169644883B64ECED5 /* StopwatchView.swift in Sources */,
+				17A033ED02EA479C837A62DB /* ContentView.swift in Sources */,
+				1950FDA8C8CC48E2A1B6EAF5 /* CompactClockView.swift in Sources */,
+				B328C2DB6FFD418AA98A1F84 /* CompactStopwatchView.swift in Sources */,
+				1341E8D9B8CA412E8AF3FBC9 /* CompactContainerView.swift in Sources */,
+				EB4FBC300C754D90B87E2809 /* CompactTimerView.swift in Sources */,
+				32A30D2F87904CFA9EFC8A75 /* CompactPomodoroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5CA61A3C94F4BA5871FD7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8056C7D92EE14982ACBC27D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1C1138D0A8E94587AFFFDC25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TickTock/TickTock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TickTock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ticktock.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F547C6FE59C6496F92518687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TickTock/TickTock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TickTock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ticktock.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59B14876107640979801F10A /* Build configuration list for PBXProject "TickTock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CA61A3C94F4BA5871FD7A1 /* Debug */,
+				8056C7D92EE14982ACBC27D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85DBBCBEAF8442C1AD64AEFD /* Build configuration list for PBXNativeTarget "TickTock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1138D0A8E94587AFFFDC25 /* Debug */,
+				F547C6FE59C6496F92518687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 64F39412A768410DB02BA400 /* Project object */;
+}

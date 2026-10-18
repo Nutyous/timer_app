@@ -1,0 +1,23 @@
+{
+  "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Components/AnalogClockFace.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Components/BubblePopup.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.swiftdeps"
+  }
+}

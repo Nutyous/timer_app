@@ -1,0 +1,23 @@
+{
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Utilities/LoginItemManager.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Utilities/SoundManager.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Utilities/TimeFormatting.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.dia",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.swiftdeps"
+  }
+}

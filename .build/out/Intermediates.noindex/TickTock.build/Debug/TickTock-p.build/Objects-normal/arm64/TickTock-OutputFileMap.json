@@ -1,0 +1,249 @@
+{
+  "" : {
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTock-primary.dia",
+    "emit-module-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTock-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTock-primary-emit-module.dia",
+    "pch" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTock-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTock-primary.swiftdeps"
+  },
+  "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/resource_bundle_accessor~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Components/AnalogClockFace.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AnalogClockFace~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Components/BubblePopup.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/BubblePopup~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Components/CircularProgress.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CircularProgress~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Models/AppState.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/AppState~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Models/PomodoroModel.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroModel~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Models/StopwatchModel.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchModel~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Models/TimerModel.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerModel~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/TickTockApp.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TickTockApp~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Utilities/LoginItemManager.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/LoginItemManager~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Utilities/SoundManager.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SoundManager~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Utilities/TimeFormatting.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimeFormatting~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/ClockView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ClockView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/Compact/CompactClockView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactClockView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/Compact/CompactContainerView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactContainerView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/Compact/CompactPomodoroView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactPomodoroView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/Compact/CompactStopwatchView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactStopwatchView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/Compact/CompactTimerView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/CompactTimerView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/ContentView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/PomodoroView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/PomodoroView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/SettingsView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/SettingsView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/StopwatchView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/StopwatchView~partial.swiftmodule"
+  },
+  "/Users/francisco/Documents/timer_app/TickTock/TickTock/Views/TimerView.swift" : {
+    "const-values" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.swiftconstvalues",
+    "dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.d",
+    "diagnostics" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.dia",
+    "index-unit-output-path" : "/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.o",
+    "llvm-bc" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.bc",
+    "object" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.o",
+    "swift-dependencies" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView.swiftdeps",
+    "swiftmodule" : "/Users/francisco/Documents/timer_app/.build/out/Intermediates.noindex/TickTock.build/Debug/TickTock-p.build/Objects-normal/arm64/TimerView~partial.swiftmodule"
+  }
+}
