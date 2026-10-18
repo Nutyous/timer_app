@@ -66,7 +66,8 @@ struct ContentView: View {
         )
         .frame(
             width: appState.isCompact ? 160 : 320,
-            height: appState.isCompact ? (pomodoro.showStageBubble && appState.currentMode == .pomodoro ? 204 : 160) : 420
+            height: appState.isCompact ? (pomodoro.showStageBubble && appState.currentMode == .pomodoro ? 204 : 160) : 420,
+            alignment: .top
         )
         .background(
             WindowAccessor { window in
